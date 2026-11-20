@@ -9,8 +9,8 @@ class Task extends Model
 {
     use HasFactory;
 
-    public const STATUS_PENDING = 'pending';
-    public const STATUS_COMPLETED = 'completed';
+    public const STATUS_PENDING = 'Pending';
+    public const STATUS_COMPLETED = 'Completed';
 
     public const STATUSES = [
         self::STATUS_PENDING,
